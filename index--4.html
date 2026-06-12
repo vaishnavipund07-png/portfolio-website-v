@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vaishnavi Pund | Portfolio</title>
+    <link rel="stylesheet" href="style--4.css">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav>
+
+        <div class="logo">
+            Vaishnavi Pund
+        </div>
+
+        <div class="menu-toggle" onclick="toggleMenu()">
+            ☰
+        </div>
+
+        <ul id="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+    </nav>
+
+    <!-- Main Layout -->
+    <div class="main-container">
+
+        <!-- LEFT COLUMN -->
+        <div class="left-column">
+
+            <!-- Home Section -->
+            <section id="home" class="home-card">
+
+                <div class="profile-box">
+
+                    <img src="v7.jpeg"
+                    alt="Vaishnavi"
+                    class="profile-img">
+
+                    <div class="social-icons">
+
+                        <a href="#">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+
+                        <a href="#">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+
+                        <a href="#">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <div class="intro">
+
+                    <h2>Hi It's Me,</h2>
+
+                    <h1>
+                        I'm Vaishnavi Pund
+                    </h1>
+
+                    <h3>
+                        MERN Stack Developer
+                    </h3>
+
+                    <p>
+
+                        Hi there! I am a junior MERN Stack
+                        Developer focused on building full-stack
+                        applications using MongoDB, Express,
+                        React and Node.js.
+
+                    </p>
+
+                    <p>
+
+                        Passionate about writing clean,
+                        scalable code and continuously
+                        improving my development skills.
+
+                    </p>
+
+                    <button class="about-btn">
+
+                        About Me
+
+                    </button>
+
+                </div>
+
+            </section>
+
+            <!-- About Section -->
+            <section id="about" class="about-card">
+
+                <h2>
+                    About Me
+                </h2>
+
+                <p>
+
+                    I am a detail-oriented developer
+                    who enjoys transforming ideas into
+                    reality through code.
+
+                </p>
+
+                <p>
+
+                    With a strong foundation in the
+                    MERN Stack, I love solving problems,
+                    building responsive interfaces and
+                    learning modern technologies.
+
+                </p>
+
+                <p>
+
+                    When I'm not coding, I spend time
+                    improving my skills and exploring
+                    new tools in web development.
+
+                </p>
+
+                <h3>
+                    My Tech Stack
+                </h3>
+
+                <div class="tech-stack">
+
+                    <span>MongoDB</span>
+
+                    <span>Express.js</span>
+
+                    <span>React.js</span>
+
+                    <span>Node.js</span>
+
+                    <span>HTML & CSS</span>
+
+                    <span>JavaScript</span>
+
+                </div>
+
+            </section>
+
+            <!-- Projects Section -->
+            <section id="projects"
+            class="projects-card">
+
+                <h2>
+                    My Projects
+                </h2>
+
+                <div class="project-box">
+
+                    <i class="fa-solid fa-globe"></i>
+
+                    <h3>
+                        Portfolio Website
+                    </h3>
+
+                    <p>
+
+                        Responsive personal portfolio
+                        created using HTML and CSS to
+                        showcase skills and projects.
+
+                    </p>
+
+                </div>
+
+                <div class="project-box">
+
+                    <i class="fa-solid fa-user-graduate"></i>
+
+                    <h3>
+                        Student Management System
+                    </h3>
+
+                    <p>
+
+                        A simple C++ project developed
+                        using file handling concepts.
+
+                    </p>
+
+                </div>
+
+                <div class="project-box">
+
+                    <i class="fa-solid fa-calculator"></i>
+
+                    <h3>
+                        Calculator App
+                    </h3>
+
+                    <p>
+
+                        Basic calculator built using
+                        HTML, CSS and JavaScript.
+
+                    </p>
+
+                </div>
+
+            </section>
+
+        </div>
+        <!-- RIGHT COLUMN -->
+        <div class="right-column">
+
+            <!-- Services Section -->
+            <section id="services" class="services-card">
+
+                <h2>My Services</h2>
+
+                <div class="service-box">
+
+                    <i class="fa-solid fa-code"></i>
+
+                    <h3>Frontend Development</h3>
+
+                    <p>
+                        Creating responsive and interactive
+                        user interfaces using HTML, CSS,
+                        JavaScript and React.js.
+                    </p>
+
+                </div>
+
+                <div class="service-box">
+
+                    <i class="fa-solid fa-server"></i>
+
+                    <h3>Backend Development</h3>
+
+                    <p>
+                        Building APIs and server-side
+                        applications using Node.js
+                        and Express.js.
+                    </p>
+
+                </div>
+
+                <div class="service-box">
+
+                    <i class="fa-solid fa-database"></i>
+
+                    <h3>Database Management</h3>
+
+                    <p>
+                        Managing and designing databases
+                        efficiently using MongoDB.
+                    </p>
+
+                </div>
+
+            </section>
+
+            <!-- Contact Section -->
+            <section id="contact" class="contact-card">
+
+                <h2>Contact Me</h2>
+
+                <form>
+
+                    <label>Your Name</label>
+
+                    <input type="text"
+                    placeholder="Enter Your Name">
+
+                    <label>Email Address</label>
+
+                    <input type="email"
+                    placeholder="Enter Your Email">
+
+                    <label>Phone Number</label>
+
+                    <input type="text"
+                    placeholder="Enter Your Phone Number">
+
+                    <label>Message</label>
+
+                    <textarea rows="5"
+                    placeholder="Enter Your Message"></textarea>
+
+                    <button type="submit">
+                        Send Message
+                    </button>
+
+                </form>
+
+            </section>
+
+        </div>
+
+    </div>
+
+    <script>
+
+        function toggleMenu() {
+
+            document
+            .getElementById("nav-links")
+            .classList.toggle("active");
+
+        }
+
+    </script>
+
+</body>
+</html>
